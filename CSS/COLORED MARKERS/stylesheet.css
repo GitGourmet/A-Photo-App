@@ -28,8 +28,8 @@ h1 {
   height:25px;
   /* The rgba function works just like the rgb function, but takes one more number from 0 to 1.0 for the alpha channel:for opacity */
   background-color:rgb(255,255,255,0.5);
-  border: left width 10px;
-  border-left-style:solid;
+  border-left: 10px solid black;
+  
 }
 .cap{
   width:60px;

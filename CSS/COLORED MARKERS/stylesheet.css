@@ -26,5 +26,7 @@ h1 {
 .sleeve{
   width:110px;
   height:25px;
-  background-color:white
+  /* The rgba function works just like the rgb function, but takes one more number from 0 to 1.0 for the alpha channel:for opacity */
+  background-color:rgb(255,255,255,0.5)
+  opacity:0.5;
 }

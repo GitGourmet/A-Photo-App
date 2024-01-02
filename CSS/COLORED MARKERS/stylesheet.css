@@ -15,10 +15,11 @@ h1 {
 /* If no gradientDirection argument is provided to the linear-gradient function, it arranges colors from top to bottom, or along a 180 degree line, by default. */
 .red {
   background: linear-gradient(180deg, rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+  box-shadow: 5px 5px red;
 }
 .green {
   background: linear-gradient(180deg,#55680d, #75F53E, #116C31);
-  box-shadow: 5px 5px red;
+  box-shadow: 5px 5px 5px green;
 }
 
 .blue {
